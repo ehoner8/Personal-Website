@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Navbar Section -->
+        <section id="bar" class="flex-shrink-0">
+          <div class="container navcontainer projectsnav" style="padding-right: 0px; padding-left: 0px;">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 235px; height: 100vh;">
+              <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <span class="fs-4 ps-2"><img height="45"  src="./images/brain.png" alt="brain image"/></span>
+              </a>
+              <hr>
+              <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                  <a href="./index.html" class="nav-link text-white">Home</a>
+                </li>
+                <li>
+                  <a href="./about.html" class="nav-link text-white">About Me</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link active" aria-current="page">Resume</a>
+                </li>
+                <li>
+                  <a href="./projects.html" class="nav-link text-white">Projects</a>
+                </li>
+                <li>
+                  <a href="./contact.html" class="nav-link text-white">Contact Me</a>
+                </li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume" clsas="scrollable">
+          <div style="overflow: scroll;" class="gradient-background outer-flex-res flex-grow-1">
+            <h1 style="text-align: center;" class="pt-4">Eric Honer</h1>
+            <h5 class="pb-5" style="text-align: center;">Santa Clara, CA | honereric@gmail.com | 669-265-4404 | linkedin.com/in/ehoner8 | github.com/ehoner8</h5>
+            <div class="resume-container mb-5">
+              <div class=" row">
+                <div class="col-lg-6 ps-5">
+                  <h2 style="color: #FFDEAD;">Education</h2>
+                  <br />
+                  <h4>University of California, Santa Cruz</h4>
+                  <h4>Computer Science B.S.</h4>
+                  <h4>Expected Graduation: June 2026</h4>
+                  <h4>GPA: 3.51</h4>
+                  <ul>
+                    <li><p>Concentrations: Artificial Intelligence, Machine Learning, Deep Learning, Data Science</p></li>
+                    <li><p>College Coursework: Python Programming, C, Calculus I, II, and III, Discrete Mathematics, Probability and Stats, Linear Algebra, Machine Learning, Computer Networking
+                    </p></li>
+                    <li>Personal Coursework:
+                        <ul>
+                            <li><a href="https://www.udemy.com/certificate/UC-f2667e84-4e87-420f-9171-d3a255a1a080/">The Complete Python Course</a></li>
+                            <li><a href="https://www.udemy.com/certificate/UC-cdafce5e-0f5d-43fd-bb4d-f4e8558c5cbc/">Python for Machine Learning and Data Science Masterclass</a></li>
+                            <li>Currently taking Tensorflow and Pytorch courses</li>
+                        </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 ps-5">
+                  <h2 style="color: #FFDEAD;">Achievements</h2>
+                  <br />
+                  <ul>
+                    <li>Eagle Scout from troop 394</li>
+                    <ul>
+                        <li>Skills gained: Leadership, time management, organization</li>
+                    </ul>
+                    <br />
+                    <li>Chess USCF rating: 1850</li>
+                    <ul>
+                        <li>Skills gained: critical thinking, intuition</li>
+                    </ul>
+                    <br />
+                    <li>UCSC ACM Hacks 2024 winner</li>
+                    <ul>
+                        <li>Skills gained: teamwork, time management, adaptability</li>
+                    </ul>
+                    <br />
+                    <li>AP Scholar with Honor</li>
+                  </ul>
+                </div>
+              </div>              
+            </div>   
+            
+            <br />
+            <br />
+            
+            <div class="resume-container">
+              <div class=" row">
+                <div class="col-lg-6 ps-5">
+                  <h2 style="color: #FFDEAD;">Skills</h2>
+                  <br />
+                  <p>Programming: Python, C, SQL, web scraping, asynchronous development, Web Development with Flask and HTML, CSS, Tkinter GUI Development, Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Tensorflow, PyTorch</p>
+                  <p>Additional tech skills: github, shell scripting</p>
+                  <p>Soft skills: great communication skills, punctuality, working in a team, time management</p>
+                  
+                </div>
+                <div class="col-lg-6 ps-5">
+                  <h2 style="color: #FFDEAD;">Major Projects/Current Work</h2>
+                  <br />
+                  <ul>
+                    <li>UCSC Basic Needs assistance app</li>
+                    <ul>
+                      <li>A team project designed to help students navigate the cluttered basic needs system. Using React, Tailwind, and Next.js, this app displays each facility with their hours, products, location, and a question/recommendation section</li>
+                    </ul>
+                    <br />
+                    <li>Two-player chess application</li>
+                    <ul>
+                        <li>A personal project allowing two players to play a game of chess using pygame</li>
+                    </ul>
+                    <br />
+                    <li>Brain-inspired Neural Network lab</li>
+                    <ul>
+                      <li>Research lab at UCSC under assistant professor Jason Eshraghian focused on building more computationally efficient deep-learning models using snntorch. Currently using this library to build a hand gesture recognition application</li>
+                    </ul>
+                    <br />
+                  </ul>
+                </div>
+              </div>              
+            </div>         
+          </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
